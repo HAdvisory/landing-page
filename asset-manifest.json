@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/landing-page/static/js/main.8ab6f0ee.js",
+    "main.js": "/landing-page/static/js/main.ff0621ed.js",
     "index.html": "/landing-page/index.html",
-    "main.8ab6f0ee.js.map": "/landing-page/static/js/main.8ab6f0ee.js.map"
+    "main.ff0621ed.js.map": "/landing-page/static/js/main.ff0621ed.js.map"
   },
   "entrypoints": [
-    "static/js/main.8ab6f0ee.js"
+    "static/js/main.ff0621ed.js"
   ]
 }
