@@ -41,7 +41,7 @@ function Nav() {
           ))}
         </ul>
         <a
-          href="C:\Users\Dwhen\Downloads\FullStackPortfolio\Landing Page\public\Dwight_Hendricks_Resume.docx"
+          href={`${process.env.PUBLIC_URL}/Dwight_Hendricks_Resume.docx`}
           target="_blank"
           rel="noopener noreferrer"
           className="nav-cta"
@@ -92,7 +92,7 @@ function Hero() {
               View Projects →
             </button>
             <a
-              href="/Dwight_Hendricks_Resume.pdf"
+              href={`${process.env.PUBLIC_URL}/Dwight_Hendricks_Resume.docx`}
               target="_blank"
               rel="noopener noreferrer"
               className="btn-secondary"
@@ -245,7 +245,7 @@ const PROJECTS = [
     desc: 'People can\'t easily understand where their money goes from raw bank statements. MindsBudget ingests PDFs and CSVs from Wells Fargo, Chase, and Bank of America, automatically classifies transactions, detects recurring charges, and surfaces spending intelligence.',
     why: '<strong>Why employers care:</strong> Custom multi-bank PDF parsers, 159 automated tests (100% pass), JWT auth system, full-stack ownership from ingestion to UI. Financial domain knowledge + real engineering depth.',
     stack: ['React', 'Node.js', 'Express', 'PostgreSQL', 'JWT', 'PDF Parsing', 'CSV/Excel'],
-    links: [{ label: '↗ Live Site', href: 'https://mindsbudget.com', cls: 'primary' }, { label: 'GitHub', href: 'https://github.com/hadvisory', cls: '' }],
+    links: [{ label: '↗ Live Site', href: 'https://www.mindsbudget.com/', cls: 'primary' }, { label: 'GitHub', href: 'https://github.com/hadvisory', cls: '' }],
     featured: true,
   },
   {
@@ -664,7 +664,7 @@ function Footer() {
     <footer className="footer">
       <p className="footer-text">
         © 2026 <span>Dwight Hendricks II</span> · Charlotte, NC ·{' '}
-        <a href="https://mindsbudget.com" target="_blank" rel="noopener noreferrer">MindsBudget</a>{' '}
+        <a href="https://www.mindsbudget.com/" target="_blank" rel="noopener noreferrer">MindsBudget</a>{' '}
         · <a href="https://github.com/hadvisory" target="_blank" rel="noopener noreferrer">GitHub</a>
       </p>
     </footer>
