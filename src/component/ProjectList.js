@@ -64,7 +64,7 @@ const ProjectList = () => {
           onMouseOver={handleMouseOver}
           onMouseOut={handleMouseOut}
         >
-          🎵 Mood Generator + Music Player
+          🎵 Mood Generator and Music Player
         </button>
       </a>
     </div>
